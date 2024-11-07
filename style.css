@@ -1,0 +1,2800 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+body{
+  display: flex;
+ align-items: center;
+ height: 50vh; 
+ background-color: hsl(226, 43%, 10%);
+ margin:200px  150px 200px 150px;
+ overflow: hidden;
+}
+.container{
+  width: 1140px;
+  margin-top: 400px;
+}
+.container button{
+  cursor: pointer;
+}
+.boxes{
+  display: flex;
+  flex-direction: row;
+}
+.blue{
+  background-color: hsl(246, 80%, 60%);
+  width: 230px;
+  height: 350px;
+  padding: 25px;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 80px;
+}
+.blue-img img{
+  width: 80px;
+  height: 80px;
+}
+.blue-img-padding{
+  width: 88px;
+  height: 88px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: -88px;
+  margin-left: -4px;
+}
+.blue p{
+  margin-top: 40px;
+  color: hsl(236, 100%, 87%);
+}
+.blue h1{
+  font-weight: 400;
+  color: rgb(223, 234, 255);
+}
+.stats{
+width: 230px;
+background-color:hsl(235, 46%, 20%) ;
+padding: 25px;
+border-radius: 20px;
+height: 200px;
+}
+
+.jeremy{
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  
+}
+.jeremy button{
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px solid;
+  color: rgb(223, 234, 255);
+  font-size: 16px;
+  display: inline;
+  display: flex;
+}
+#daily{
+margin-top: 25px;
+}
+#weekly{
+  margin-top: 30px;
+}
+#monthly{
+  margin-top: 30px;
+}
+.bg{
+  width: 230px;
+  height: 100px;
+  border-radius: 20px;
+}
+.bg img{
+  width: 70px;
+  height: 70px;
+}
+
+.work{
+  margin-left: 330px;
+  margin-top: -110px;
+  position: absolute;
+}
+.work h1{
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+.work-h2 {
+top: 90px;
+position: absolute;
+}
+.work-h2 h2{
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+}
+.work-h3{
+  top: 155px;
+  position: absolute;
+}
+.work-h3 h3{
+  color:hsl(236, 100%, 87%);
+  font-size: 14px;
+  font-weight: 300;
+}
+.work:hover{
+  background-color: hsl(237, 38%, 36%);
+}
+#workButton{
+  margin-left: 120px;
+  background-color:rgba(255, 0, 0, 0);
+  border: 0px solid;
+}
+.work-top{
+  display: flex;
+  flex-direction: row;
+}
+.work-top button{
+  margin-top: -7px;
+}
+.work-time{
+display: flex;
+flex-direction: column;  
+width: 70px;
+margin-left: 75px;
+margin-top: -35px;
+border: 1px solid rgb(223, 234, 255);
+padding: 3px 8px 8px 8px;
+border-radius: 8px;
+display:none ;
+position: relative;
+}
+.work-time button{
+  width: 50px;
+  margin-top: 5px;
+  color: rgb(223, 234, 255);
+  background-color:rgba(255, 0, 0, 0);
+  border: 1px solid rgb(223, 234, 255);
+}
+.orange{
+  background-color: hsl(15, 100%, 70%);
+  margin-left: 20px;
+  margin-top: -150px;
+}
+.orange img{
+  margin-left: 150px;
+}
+
+
+
+
+.play{
+  margin-left: 580px;
+  margin-top: -110px;
+  position: absolute;
+}
+.play h1{
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+.play-h2 {
+top: 90px;
+position: absolute;
+}
+.play-h2 h2{
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+}
+.play-h3{
+  top: 155px;
+  position: absolute;
+}
+.play-h3 h3{
+  color:hsl(236, 100%, 87%);
+  font-size: 14px;
+  font-weight: 300;
+}
+.play:hover{
+  background-color: hsl(237, 38%, 36%);
+}
+#playButton{
+  margin-left: 120px;
+  background-color:rgba(255, 0, 0, 0);
+  border: 0px solid;
+}
+.play-top{
+  display: flex;
+  flex-direction: row;
+}
+.play-top button{
+  margin-top: -7px;
+}
+.play-time{
+display: flex;
+flex-direction: column;  
+width: 70px;
+margin-left: 75px;
+margin-top: -35px;
+border: 1px solid rgb(223, 234, 255);
+padding: 3px 8px 8px 8px;
+border-radius: 8px;
+display:none ;
+position: relative;
+}
+.play-time button{
+  width: 50px;
+  margin-top: 5px;
+  color: rgb(223, 234, 255);
+  background-color:rgba(255, 0, 0, 0);
+  border: 1px solid rgb(223, 234, 255);
+}
+.cyan{
+  background-color: hsl(195, 74%, 62%);
+  margin-left: 20px;
+  margin-top: -150px;
+}
+.cyan img{
+  margin-left: 150px;
+}
+
+
+
+
+
+.study{
+  margin-left: 830px;
+  margin-top: -110px;
+  position: absolute;
+}
+.study h1{
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+.study-h2 {
+top: 90px;
+position: absolute;
+}
+.study-h2 h2{
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+}
+.study-h3{
+  top: 155px;
+  position: absolute;
+}
+.study-h3 h3{
+  color:hsl(236, 100%, 87%);
+  font-size: 14px;
+  font-weight: 300;
+}
+.study:hover{
+  background-color: hsl(237, 38%, 36%);
+}
+#studyButton{
+  margin-left: 120px;
+  background-color:rgba(255, 0, 0, 0);
+  border: 0px solid;
+}
+.study-top{
+  display: flex;
+  flex-direction: row;
+}
+.study-top button{
+  margin-top: -7px;
+}
+.study-time{
+display: flex;
+flex-direction: column;  
+width: 70px;
+margin-left: 75px;
+margin-top: -35px;
+border: 1px solid rgb(223, 234, 255);
+padding: 3px 8px 8px 8px;
+border-radius: 8px;
+display:none ;
+position: relative;
+}
+.study-time button{
+  width: 50px;
+  margin-top: 5px;
+  color: rgb(223, 234, 255);
+  background-color:rgba(255, 0, 0, 0);
+  border: 1px solid rgb(223, 234, 255);
+}
+.red{
+  background-color: hsl(348, 100%, 68%);
+  margin-left: 20px;
+  margin-top: -150px;
+}
+.red img{
+  margin-left: 150px;
+}
+
+
+
+
+
+.exercise{
+  margin-left: 330px;
+  margin-top: 180px;
+  position: absolute;
+}
+.exercise h1{
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+.exercise-h2 {
+top: 90px;
+position: absolute;
+}
+.exercise-h2 h2{
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+}
+.exercise-h3{
+  top: 155px;
+  position: absolute;
+}
+.exercise-h3 h3{
+  color:hsl(236, 100%, 87%);
+  font-size: 14px;
+  font-weight: 300;
+}
+.exercise:hover{
+  background-color: hsl(237, 38%, 36%);
+}
+#exerciseButton{
+  margin-left: 90px;
+  background-color:rgba(255, 0, 0, 0);
+  border: 0px solid;
+}
+.exercise-top{
+  display: flex;
+  flex-direction: row;
+}
+.exercise-top button{
+  margin-top: -7px;
+}
+.exercise-time{
+display: flex;
+flex-direction: column;  
+width: 70px;
+margin-left: 75px;
+margin-top: -35px;
+border: 1px solid rgb(223, 234, 255);
+padding: 3px 8px 8px 8px;
+border-radius: 8px;
+display:none ;
+position: relative;
+}
+.exercise-time button{
+  width: 50px;
+  margin-top: 5px;
+  color: rgb(223, 234, 255);
+  background-color:rgba(255, 0, 0, 0);
+  border: 1px solid rgb(223, 234, 255);
+}
+.green{
+  background-color: hsl(145, 58%, 55%);
+  margin-left: -730px;
+  margin-top: 145px;
+}
+.green img{
+  margin-left: 150px;
+}
+
+
+
+
+
+.social{
+  margin-left: 580px;
+  margin-top: 180px;
+  position: absolute;
+}
+.social h1{
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+.social-h2 {
+top: 90px;
+position: absolute;
+}
+.social-h2 h2{
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+}
+.social-h3{
+  top: 155px;
+  position: absolute;
+}
+.social-h3 h3{
+  color:hsl(236, 100%, 87%);
+  font-size: 14px;
+  font-weight: 300;
+}
+.social:hover{
+  background-color: hsl(237, 38%, 36%);
+}
+#socialButton{
+  margin-left: 110px;
+  background-color:rgba(255, 0, 0, 0);
+  border: 0px solid;
+}
+.social-top{
+  display: flex;
+  flex-direction: row;
+}
+.social-top button{
+  margin-top: -7px;
+}
+.social-time{
+display: flex;
+flex-direction: column;  
+width: 70px;
+margin-left: 75px;
+margin-top: -35px;
+border: 1px solid rgb(223, 234, 255);
+padding: 3px 8px 8px 8px;
+border-radius: 8px;
+display:none ;
+position: relative;
+}
+.social-time button{
+  width: 50px;
+  margin-top: 5px;
+  color: rgb(223, 234, 255);
+  background-color:rgba(255, 0, 0, 0);
+  border: 1px solid rgb(223, 234, 255);
+}
+.purple{
+  background-color: hsl(264, 64%, 52%);
+  margin-left: 20px;
+  margin-top: 145px;
+}
+.purple img{
+  margin-left: 150px;
+}
+
+
+
+
+
+.self{
+  margin-left: 830px;
+  margin-top: 180px;
+  position: absolute;
+}
+.self h1{
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+.self-h2 {
+top: 90px;
+position: absolute;
+}
+.self-h2 h2{
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+}
+.self-h3{
+  top: 155px;
+  position: absolute;
+}
+.self-h3 h3{
+  color:hsl(236, 100%, 87%);
+  font-size: 14px;
+  font-weight: 300;
+}
+.self:hover{
+  background-color: hsl(237, 38%, 36%);
+}
+#selfButton{
+  margin-left: 110px;
+  margin-top: -20px;
+  background-color:rgba(255, 0, 0, 0);
+  border: 0px solid;
+}
+.self-top{
+  display: flex;
+  flex-direction: row;
+}
+.self-top button{
+  margin-top: -7px;
+}
+.self-time{
+display: flex;
+flex-direction: column;  
+width: 70px;
+margin-left: 75px;
+margin-top: -55px;
+border: 1px solid rgb(223, 234, 255);
+padding: 3px 8px 8px 8px;
+border-radius: 8px;
+display:none ;
+position: relative;
+}
+.self-time button{
+  width: 50px;
+  margin-top: 5px;
+  color: rgb(223, 234, 255);
+  background-color:rgba(255, 0, 0, 0);
+  border: 1px solid rgb(223, 234, 255);
+}
+.yellow{
+  background-color: hsl(43, 84%, 65%);
+  margin-left: 20px;
+  margin-top: 145px;
+}
+.yellow img{
+  margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+  body{
+    display: flex;
+   align-items: center;
+   height: 50vh; 
+   background-color: hsl(226, 43%, 10%);
+   margin:70px  80px 70px 80px;
+   overflow: hidden;
+  }
+  .container{
+    width: 860px;
+    margin-top: 400px;
+  } 
+  .container button{
+    cursor: pointer;
+  }
+  .boxes{
+    display: flex;
+    flex-direction: row;
+  }
+  .blue{
+    background-color: hsl(246, 80%, 60%);
+    width: 200px;
+    height: 350px;
+    padding: 25px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 0px;
+  }
+  .blue-img img{
+    width: 80px;
+    height: 80px;
+  }
+  .blue-img-padding{
+    width: 88px;
+    height: 88px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: -88px;
+    margin-left: -4px;
+  }
+  .blue p{
+    margin-top: 40px;
+    color: hsl(236, 100%, 87%);
+  }
+  .blue h1{
+    font-weight: 400;
+    color: rgb(223, 234, 255);
+  }
+  .stats{
+  width: 200px;
+  background-color:hsl(235, 46%, 20%) ;
+  padding: 25px;
+  border-radius: 20px;
+  height: 200px;
+  }
+  
+  .jeremy{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    
+  }
+  .jeremy button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid;
+    color: rgb(223, 234, 255);
+    font-size: 16px;
+    display: inline;
+    display: flex;
+  }
+  #daily{
+  margin-top: 25px;
+  }
+  #weekly{
+    margin-top: 30px;
+  }
+  #monthly{
+    margin-top: 30px;
+  }
+  .bg{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+  }
+  .bg img{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .work{
+    margin-left: 220px;
+    margin-top: -110px;
+    position: absolute;
+  }
+  .work h1{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .work-h2 {
+  top: 90px;
+  position: absolute;
+  }
+  .work-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .work-h3{
+    top: 155px;
+    position: absolute;
+  }
+  .work-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .work:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #workButton{
+    margin-left: 100px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .work-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .work-top button{
+    margin-top: -7px;
+  }
+  .work-time{
+  display: flex;
+  flex-direction: column;  
+  width: 70px;
+  margin-left: 55px;
+  margin-top: -35px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .work-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .orange{
+    background-color: hsl(15, 100%, 70%);
+    margin-left: 20px;
+    margin-top: -150px;
+  }
+  .orange img{
+    margin-left: 120px;
+  }
+
+
+
+
+  .play{
+    margin-left: 440px;
+    margin-top: -110px;
+    position: absolute;
+  }
+  .play h1{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .play-h2 {
+  top: 90px;
+  position: absolute;
+  }
+  .play-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .play-h3{
+    top: 155px;
+    position: absolute;
+  }
+  .play-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .play:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #playButton{
+    margin-left: 100px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .play-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .play-top button{
+    margin-top: -7px;
+  }
+  .play-time{
+  display: flex;
+  flex-direction: column;  
+  width: 70px;
+  margin-left: 55px;
+  margin-top: -35px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .play-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .cyan{
+    background-color: hsl(195, 74%, 62%);
+    margin-left: 20px;
+    margin-top: -150px;
+  }
+  .cyan img{
+    margin-left: 120px;
+  }
+  
+  
+  
+  
+  
+  .study{
+    margin-left: 660px;
+    margin-top: -110px;
+    position: absolute;
+  }
+  .study h1{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .study-h2 {
+  top: 90px;
+  position: absolute;
+  }
+  .study-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .study-h3{
+    top: 155px;
+    position: absolute;
+  }
+  .study-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .study:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #studyButton{
+    margin-left: 90px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .study-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .study-top button{
+    margin-top: -7px;
+  }
+  .study-time{
+  display: flex;
+  flex-direction: column;  
+  width: 70px;
+  margin-left: 55px;
+  margin-top: -35px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .study-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .red{
+    background-color: hsl(348, 100%, 68%);
+    margin-left: 20px;
+    margin-top: -150px;
+  }
+  .red img{
+    margin-left: 120px;
+  }
+  
+  
+  
+  
+  
+  .exercise{
+    margin-left: 220px;
+    margin-top: 180px;
+    position: absolute;
+  }
+  .exercise h1{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: -5px;
+  }
+  .exercise-h2 {
+  top: 90px;
+  position: absolute;
+  }
+  .exercise-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .exercise-h3{
+    top: 155px;
+    position: absolute;
+  }
+  .exercise-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .exercise:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #exerciseButton{
+    margin-left: 75px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .exercise-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .exercise-top button{
+    margin-top: -7px;
+  }
+  .exercise-time{
+  display: flex;
+  flex-direction: column;  
+  width: 70px;
+  margin-left: 65px;
+  margin-top: -35px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .exercise-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .green{
+    background-color: hsl(145, 58%, 55%);
+    margin-left: -640px;
+    margin-top: 145px;
+  }
+  .green img{
+    margin-left: 120px;
+  }
+  
+  
+  
+  
+  
+  .social{
+    margin-left: 440px;
+    margin-top: 180px;
+    position: absolute;
+  }
+  .social h1{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .social-h2 {
+  top: 90px;
+  position: absolute;
+  }
+  .social-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .social-h3{
+    top: 155px;
+    position: absolute;
+  }
+  .social-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .social:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #socialButton{
+    margin-left: 90px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .social-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .social-top button{
+    margin-top: -7px;
+  }
+  .social-time{
+  display: flex;
+  flex-direction: column;  
+  width: 70px;
+  margin-left: 55px;
+  margin-top: -35px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .social-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .purple{
+    background-color: hsl(264, 64%, 52%);
+    margin-left: 20px;
+    margin-top: 145px;
+  }
+  .purple img{
+    margin-left: 120px;
+  }
+  
+  
+  
+  
+  
+  .self{
+    margin-left: 660px;
+    margin-top: 180px;
+    position: absolute;
+  }
+  .self h1{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .self-h2 {
+  top: 90px;
+  position: absolute;
+  }
+  .self-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .self-h3{
+    top: 155px;
+    position: absolute;
+  }
+  .self-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .self:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #selfButton{
+    margin-left: 100px;
+    margin-top: -20px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .self-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .self-top button{
+    margin-top: -7px;
+  }
+  .self-time{
+  display: flex;
+  flex-direction: column;  
+  width: 70px;
+  margin-left: 55px;
+  margin-top: -55px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .self-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .yellow{
+    background-color: hsl(43, 84%, 65%);
+    margin-left: 20px;
+    margin-top: 145px;
+  }
+  .yellow img{
+    margin-left: 120px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+  body{
+    display: flex;
+   align-items: center;
+   height: 50vh; 
+   background-color: hsl(226, 43%, 10%);
+   margin:30px  30px 30px 30px;
+   overflow: hidden;
+  }
+  .container{
+    width: 700px;
+    margin-top: 400px;
+  } 
+  .container button{
+    cursor: pointer;
+  }
+  .boxes{
+    display: flex;
+    flex-direction: row;
+  }
+  .blue{
+    background-color: hsl(246, 80%, 60%);
+    width: 700px;
+    height: 100px;
+    padding: 25px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 0px;
+  }
+  .blue-img img{
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+  }
+  .blue-img-padding{
+    width: 58px;
+    height: 58px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: -58px;
+    margin-left: 96px;
+  }
+  .blue p{
+    margin-left: 170px;
+    margin-top: -50px;
+    color: hsl(236, 100%, 87%);
+  }
+  .blue h1{
+    font-size: 25px;
+    margin-left: 170px;
+    font-weight: 400;
+    color: rgb(223, 234, 255);
+  }
+  .stats{
+  width: 200px;
+  background-color:hsl(235, 46%, 20%) ;
+  padding: 25px;
+  border-radius: 20px;
+  height: 200px;
+  }
+  
+  .jeremy{
+    width: 700px;
+    height: 100px;
+    margin-top: -280px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    
+  }
+  .jeremy button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid;
+    color: rgb(223, 234, 255);
+    font-size: 16px;
+    display: flex;
+  }
+  #daily{
+    margin-left: 20px;
+    font-size: 20px;
+  margin-top: 30px;
+  }
+  #weekly{
+    margin-left: 210px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  #monthly{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 210px;
+  }
+  .bg{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+  }
+  .bg img{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .work{
+    margin-left: 0px;
+    margin-top: -110px;
+    position: absolute;;
+  }
+  .work h1{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .work-h2 {
+  top: 90px;
+  position: absolute;
+  }
+  .work-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .work-h3{
+    top: 155px;
+    position: absolute;
+  }
+  .work-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .work:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #workButton{
+    margin-left: 100px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .work-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .work-top button{
+    margin-top: -7px;
+  }
+  .work-time{
+  display: flex;
+  flex-direction: column;  
+  width: 70px;
+  margin-left: 55px;
+  margin-top: -35px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .work-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .orange{
+    background-color: hsl(15, 100%, 70%);
+    margin-left: -700px;
+    margin-top: -150px;
+  }
+  .orange img{
+    margin-left: 120px;
+  }
+
+
+
+
+  .play{
+    margin-left: 245px;
+    margin-top: -110px;
+    position: absolute;
+  }
+  .play h1{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .play-h2 {
+  top: 90px;
+  position: absolute;
+  }
+  .play-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .play-h3{
+    top: 155px;
+    position: absolute;
+  }
+  .play-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .play:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #playButton{
+    margin-left: 100px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .play-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .play-top button{
+    margin-top: -7px;
+  }
+  .play-time{
+  display: flex;
+  flex-direction: column;  
+  width: 70px;
+  margin-left: 55px;
+  margin-top: -35px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .play-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .cyan{
+    background-color: hsl(195, 74%, 62%);
+    margin-left: 45px;
+    margin-top: -150px;
+  }
+  .cyan img{
+    margin-left: 120px;
+  }
+  
+  
+  
+  
+  
+  .study{
+    margin-left: 490px;
+    margin-top: -110px;
+    position: absolute;
+  }
+  .study h1{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .study-h2 {
+  top: 90px;
+  position: absolute;
+  }
+  .study-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .study-h3{
+    top: 155px;
+    position: absolute;
+  }
+  .study-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .study:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #studyButton{
+    margin-left: 90px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .study-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .study-top button{
+    margin-top: -7px;
+  }
+  .study-time{
+  display: flex;
+  flex-direction: column;  
+  width: 70px;
+  margin-left: 55px;
+  margin-top: -35px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .study-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .red{
+    background-color: hsl(348, 100%, 68%);
+    margin-left: 45px;
+    margin-top: -150px;
+  }
+  .red img{
+    margin-left: 120px;
+  }
+  
+  
+  
+  
+  
+  .exercise{
+    margin-left: 0px;
+    margin-top: 180px;
+    position: absolute;
+  }
+  .exercise h1{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: -5px;
+  }
+  .exercise-h2 {
+  top: 90px;
+  position: absolute;
+  }
+  .exercise-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .exercise-h3{
+    top: 155px;
+    position: absolute;
+  }
+  .exercise-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .exercise:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #exerciseButton{
+    margin-left: 75px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .exercise-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .exercise-top button{
+    margin-top: -7px;
+  }
+  .exercise-time{
+  display: flex;
+  flex-direction: column;  
+  width: 70px;
+  margin-left: 58px;
+  margin-top: -35px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .exercise-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .green{
+    background-color: hsl(145, 58%, 55%);
+    margin-left: -690px;
+    margin-top: 145px;
+  }
+  .green img{
+    margin-left: 120px;
+  }
+  
+  
+  
+  
+  
+  .social{
+    margin-left: 245px;
+    margin-top: 180px;
+    position: absolute;
+  }
+  .social h1{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .social-h2 {
+  top: 90px;
+  position: absolute;
+  }
+  .social-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .social-h3{
+    top: 155px;
+    position: absolute;
+  }
+  .social-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .social:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #socialButton{
+    margin-left: 90px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .social-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .social-top button{
+    margin-top: -7px;
+  }
+  .social-time{
+  display: flex;
+  flex-direction: column;  
+  width: 70px;
+  margin-left: 55px;
+  margin-top: -35px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .social-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .purple{
+    background-color: hsl(264, 64%, 52%);
+    margin-left: 45px;
+    margin-top: 145px;
+  }
+  .purple img{
+    margin-left: 120px;
+  }
+  
+  
+  
+  
+  
+  .self{
+    margin-left: 490px;
+    margin-top: 180px;
+    position: absolute;
+  }
+  .self h1{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .self-h2 {
+  top: 90px;
+  position: absolute;
+  }
+  .self-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .self-h3{
+    top: 155px;
+    position: absolute;
+  }
+  .self-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .self:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #selfButton{
+    margin-left: 100px;
+    margin-top: -20px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .self-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .self-top button{
+    margin-top: -7px;
+  }
+  .self-time{
+  display: flex;
+  flex-direction: column;  
+  width: 70px;
+  margin-left: 55px;
+  margin-top: -55px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .self-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .yellow{
+    background-color: hsl(43, 84%, 65%);
+    margin-left: 45px;
+    margin-top: 145px;
+  }
+  .yellow img{
+    margin-left: 120px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 425px){
+  body{
+    display: flex;
+   align-items: center;
+   height:100%; 
+   background-color: hsl(226, 43%, 10%);
+   margin:70px  20px 0px 20px;
+   overflow: visible;
+  }
+  .container{
+    width: 385px;
+    margin-top: 00px;
+    height: 100%;
+  } 
+  .container button{
+    cursor: pointer;
+  }
+  .boxes{
+    display: flex;
+    flex-direction: column;
+  }
+  .blue{
+    background-color: hsl(246, 80%, 60%);
+    width: 385px;
+    height: 120px;
+    padding: 0px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .blue-img img{
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .blue-img-padding{
+    width: 68px;
+    height: 68px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: -68px;
+    margin-left: 26px;
+  }
+  .blue p{
+    margin-left: 120px;
+    font-size: 18px;
+    margin-top: -60px;
+    color: hsl(236, 100%, 87%);
+  }
+  .blue h1{
+    font-size: 25px;
+    margin-left: 120px;
+    font-weight: 400;
+    color: rgb(223, 234, 255);
+  }
+  .stats{
+  width: 385px;
+  background-color:hsl(235, 46%, 20%) ;
+  padding: 25px;
+  border-radius: 20px;
+  height: 150px;
+  
+  }
+  
+  .jeremy{
+    width: 385px;
+    height: 100px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    
+  }
+  .jeremy button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid;
+    color: rgb(223, 234, 255);
+    font-size: 16px;
+    display: flex;
+  }
+  #daily{
+    margin-left: 0px;
+    font-size: 18px;
+  margin-top: 30px;
+  }
+  #weekly{
+    margin-left: 85px;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  #monthly{
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 85px;
+  }
+  .bg{
+    width: 385px;
+    height: 70px;
+    border-radius: 20px;
+  }
+  .bg img{
+    width: 60px;
+    height: 60px;
+  }
+  
+  .work{
+    margin-left: 0px;
+    margin-top: 280px;
+    position: absolute;
+  }
+  .work h1{
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .work-h2 {
+  top: 70px;
+  position: absolute;
+  }
+  .work-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .work-h3{
+    top: 95px;
+    left: 200px;
+    position: absolute;
+  }
+  .work-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .work:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #workButton{
+    margin-left: 260px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .work-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .work-top button{
+    margin-top: -7px;
+  }
+  .work-time{
+  display: flex;
+  flex-direction: row;  
+  width: 178px;
+  margin-left: 115px;
+  margin-top: -35px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .work-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .orange{
+    background-color: hsl(15, 100%, 70%);
+    margin-left: 00px;
+    margin-top: 30px;
+  }
+  .orange img{
+    margin-left: 300px;
+  }
+
+
+
+
+  .play{
+    margin-left: 0px;
+    margin-top: 500px;
+    position: absolute;
+  }
+  .play h1{
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .play-h2 {
+  top: 70px;
+  position: absolute;
+  }
+  .play-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .play-h3{
+    top: 95px;
+    left: 200px;
+    position: absolute;
+  }
+  .play-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .play:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #playButton{
+    margin-left: 260px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .play-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .play-top button{
+    margin-top: -7px;
+  }
+  .play-time{
+    display: flex;
+    flex-direction: row;  
+    width: 178px;
+    margin-left: 115px;
+    margin-top: -35px;
+    border: 1px solid rgb(223, 234, 255);
+    padding: 3px 8px 8px 8px;
+    border-radius: 8px;
+    display:none ;
+    position: relative;
+  }
+  .play-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .cyan{
+    background-color: hsl(195, 74%, 62%);
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+  .cyan img{
+    margin-left: 300px;
+  }
+  
+  
+  
+  
+  
+  .study{
+    margin-left: 0px;
+    margin-top: 720px;
+    position: absolute;
+  }
+  .study h1{
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .study-h2 {
+  top: 70px;
+  position: absolute;
+  }
+  .study-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .study-h3{
+    top: 95px;
+    left: 200px;
+    position: absolute;
+  }
+  .study-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .study:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #studyButton{
+    margin-left: 243px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .study-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .study-top button{
+    margin-top: -7px;
+  }
+  .study-time{
+    display: flex;
+    flex-direction: row;  
+    width: 178px;
+    margin-left: 115px;
+    margin-top: -35px;
+    border: 1px solid rgb(223, 234, 255);
+    padding: 3px 8px 8px 8px;
+    border-radius: 8px;
+    display:none ;
+    position: relative;
+  }
+  .study-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .red{
+    background-color: hsl(348, 100%, 68%);
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+  .red img{
+    margin-left: 300px;
+  }
+  
+  
+  
+  
+  
+  .exercise{
+    margin-left: 0px;
+    margin-top: 940px;
+    position: absolute;
+  }
+  .exercise h1{
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .exercise-h2 {
+  top: 70px;
+  position: absolute;
+  }
+  .exercise-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .exercise-h3{
+    top: 95px;
+    left: 200px;
+    position: absolute;
+  }
+  .exercise-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .exercise:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #exerciseButton{
+    margin-left: 225px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .exercise-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .exercise-top button{
+    margin-top: -7px;
+  }
+  .exercise-time{
+    display: flex;
+    flex-direction: row;  
+    width: 178px;
+    margin-left: 115px;
+    margin-top: -35px;
+    border: 1px solid rgb(223, 234, 255);
+    padding: 3px 8px 8px 8px;
+    border-radius: 8px;
+    display:none ;
+    position: relative;
+  }
+  .exercise-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .green{
+    background-color: hsl(145, 58%, 55%);
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+  .green img{
+    margin-left: 300px;
+  }
+  
+  
+  
+  
+  
+  .social{
+    margin-left: 0px;
+    margin-top: 1170px;
+    position: absolute;
+  }
+  .social h1{
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .social-h2 {
+  top: 70px;
+  position: absolute;
+  }
+  .social-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .social-h3{
+    top: 95px;
+    left: 200px;
+    position: absolute;
+  }
+  .social-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .social:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #socialButton{
+    margin-left: 243px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .social-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .social-top button{
+    margin-top: -7px;
+  }
+  .social-time{
+    display: flex;
+    flex-direction: row;  
+    width: 178px;
+    margin-left: 115px;
+    margin-top: -35px;
+    border: 1px solid rgb(223, 234, 255);
+    padding: 3px 8px 8px 8px;
+    border-radius: 8px;
+    display:none ;
+    position: relative;
+  }
+  .social-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .purple{
+    background-color: hsl(264, 64%, 52%);
+    margin-left: 0px;
+    margin-top: 155px;
+  }
+  .purple img{
+    margin-left: 300px;
+  }
+  
+  
+  
+  
+  
+  .self{
+    margin-left: 0px;
+    margin-top:1390px;
+    position: absolute;
+  }
+  .self h1{
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .self-h2 {
+  top: 70px;
+  position: absolute;
+  }
+  .self-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .self-h3{
+    top: 95px;
+    left: 200px;
+    position: absolute;
+  }
+  .self-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .self:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #selfButton{
+    margin-left: 210px;
+    margin-top: -0px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .self-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .self-top button{
+    margin-top: -7px;
+  }
+  .self-time{
+    display: flex;
+    flex-direction: row;  
+    width: 178px;
+    margin-left: 115px;
+    margin-top: -35px;
+    border: 1px solid rgb(223, 234, 255);
+    padding: 3px 8px 8px 8px;
+    border-radius: 8px;
+    display:none ;
+    position: relative;
+  }
+  .self-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .yellow{
+    background-color: hsl(43, 84%, 65%);
+    margin-left: 0px;
+    margin-top: 160px;
+  }
+  .yellow img{
+    margin-left: 300px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px){
+  body{
+    display: flex;
+   align-items: center;
+   height:100%; 
+   background-color: hsl(226, 43%, 10%);
+   margin:70px  20px 0px 20px;
+   overflow: visible;
+  }
+  .container{
+    width: 335px;
+    margin-top: 00px;
+    height: 100%;
+  } 
+  .container button{
+    cursor: pointer;
+  }
+  .boxes{
+    display: flex;
+    flex-direction: column;
+  }
+  .blue{
+    background-color: hsl(246, 80%, 60%);
+    width: 335px;
+    height: 120px;
+    padding: 0px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .blue-img img{
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .blue-img-padding{
+    width: 68px;
+    height: 68px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: -68px;
+    margin-left: 26px;
+  }
+  .blue p{
+    margin-left: 120px;
+    font-size: 18px;
+    margin-top: -60px;
+    color: hsl(236, 100%, 87%);
+  }
+  .blue h1{
+    font-size: 25px;
+    margin-left: 120px;
+    font-weight: 400;
+    color: rgb(223, 234, 255);
+  }
+  .stats{
+  width: 335px;
+  background-color:hsl(235, 46%, 20%) ;
+  padding: 25px;
+  border-radius: 20px;
+  height: 150px;
+  
+  }
+  
+  .jeremy{
+    width: 335px;
+    height: 100px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    
+  }
+  .jeremy button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid;
+    color: rgb(223, 234, 255);
+    font-size: 16px;
+    display: flex;
+  }
+  #daily{
+    margin-left: 0px;
+    font-size: 18px;
+  margin-top: 30px;
+  }
+  #weekly{
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  #monthly{
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 60px;
+  }
+  .bg{
+    width: 335px;
+    height: 70px;
+    border-radius: 20px;
+  }
+  .bg img{
+    width: 60px;
+    height: 60px;
+  }
+  
+  .work{
+    margin-left: 0px;
+    margin-top: 280px;
+    position: absolute;
+  }
+  .work h1{
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .work-h2 {
+  top: 70px;
+  position: absolute;
+  }
+  .work-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .work-h3{
+    top: 95px;
+    left: 180px;
+    position: absolute;
+  }
+  .work-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .work:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #workButton{
+    margin-left: 230px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .work-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .work-top button{
+    margin-top: -7px;
+  }
+  .work-time{
+  display: flex;
+  flex-direction: row;  
+  width: 178px;
+  margin-left: 85px;
+  margin-top: -35px;
+  border: 1px solid rgb(223, 234, 255);
+  padding: 3px 8px 8px 8px;
+  border-radius: 8px;
+  display:none ;
+  position: relative;
+  }
+  .work-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .orange{
+    background-color: hsl(15, 100%, 70%);
+    margin-left: 00px;
+    margin-top: 30px;
+  }
+  .orange img{
+    margin-left: 270px;
+  }
+
+
+
+
+  .play{
+    margin-left: 0px;
+    margin-top: 500px;
+    position: absolute;
+  }
+  .play h1{
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .play-h2 {
+  top: 70px;
+  position: absolute;
+  }
+  .play-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .play-h3{
+    top: 95px;
+    left: 180px;
+    position: absolute;
+  }
+  .play-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .play:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #playButton{
+    margin-left: 230px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .play-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .play-top button{
+    margin-top: -7px;
+  }
+  .play-time{
+    display: flex;
+    flex-direction: row;  
+    width: 178px;
+    margin-left: 85px;
+    margin-top: -35px;
+    border: 1px solid rgb(223, 234, 255);
+    padding: 3px 8px 8px 8px;
+    border-radius: 8px;
+    display:none ;
+    position: relative;
+  }
+  .play-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .cyan{
+    background-color: hsl(195, 74%, 62%);
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+  .cyan img{
+    margin-left: 270px;
+  }
+  
+  
+  
+  
+  
+  .study{
+    margin-left: 0px;
+    margin-top: 720px;
+    position: absolute;
+  }
+  .study h1{
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .study-h2 {
+  top: 70px;
+  position: absolute;
+  }
+  .study-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .study-h3{
+    top: 95px;
+    left: 180px;
+    position: absolute;
+  }
+  .study-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .study:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #studyButton{
+    margin-left: 213px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .study-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .study-top button{
+    margin-top: -7px;
+  }
+  .study-time{
+    display: flex;
+    flex-direction: row;  
+    width: 178px;
+    margin-left: 85px;
+    margin-top: -35px;
+    border: 1px solid rgb(223, 234, 255);
+    padding: 3px 8px 8px 8px;
+    border-radius: 8px;
+    display:none ;
+    position: relative;
+  }
+  .study-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .red{
+    background-color: hsl(348, 100%, 68%);
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+  .red img{
+    margin-left: 270px;
+  }
+  
+  
+  
+  
+  
+  .exercise{
+    margin-left: 0px;
+    margin-top: 940px;
+    position: absolute;
+  }
+  .exercise h1{
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .exercise-h2 {
+  top: 70px;
+  position: absolute;
+  }
+  .exercise-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .exercise-h3{
+    top: 95px;
+    left: 180px;
+    position: absolute;
+  }
+  .exercise-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .exercise:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #exerciseButton{
+    margin-left: 195px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .exercise-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .exercise-top button{
+    margin-top: -7px;
+  }
+  .exercise-time{
+    display: flex;
+    flex-direction: row;  
+    width: 178px;
+    margin-left: 85px;
+    margin-top: -35px;
+    border: 1px solid rgb(223, 234, 255);
+    padding: 3px 8px 8px 8px;
+    border-radius: 8px;
+    display:none ;
+    position: relative;
+  }
+  .exercise-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .green{
+    background-color: hsl(145, 58%, 55%);
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+  .green img{
+    margin-left: 270px;
+  }
+  
+  
+  
+  
+  
+  .social{
+    margin-left: 0px;
+    margin-top: 1170px;
+    position: absolute;
+  }
+  .social h1{
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .social-h2 {
+  top: 70px;
+  position: absolute;
+  }
+  .social-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .social-h3{
+    top: 95px;
+    left: 180px;
+    position: absolute;
+  }
+  .social-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .social:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #socialButton{
+    margin-left: 213px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .social-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .social-top button{
+    margin-top: -7px;
+  }
+  .social-time{
+    display: flex;
+    flex-direction: row;  
+    width: 178px;
+    margin-left: 85px;
+    margin-top: -35px;
+    border: 1px solid rgb(223, 234, 255);
+    padding: 3px 8px 8px 8px;
+    border-radius: 8px;
+    display:none ;
+    position: relative;
+  }
+  .social-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .purple{
+    background-color: hsl(264, 64%, 52%);
+    margin-left: 0px;
+    margin-top: 155px;
+  }
+  .purple img{
+    margin-left: 270px;
+  }
+  
+  
+  
+  
+  
+  .self{
+    margin-left: 0px;
+    margin-top:1390px;
+    position: absolute;
+  }
+  .self h1{
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .self-h2 {
+  top: 70px;
+  position: absolute;
+  }
+  .self-h2 h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .self-h3{
+    top: 95px;
+    left: 180px;
+    position: absolute;
+  }
+  .self-h3 h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .self:hover{
+    background-color: hsl(237, 38%, 36%);
+  }
+  #selfButton{
+    margin-left: 180px;
+    margin-top: -0px;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px solid;
+  }
+  .self-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .self-top button{
+    margin-top: -7px;
+  }
+  .self-time{
+    display: flex;
+    flex-direction: row;  
+    width: 178px;
+    margin-left: 75px;
+    margin-top: -35px;
+    border: 1px solid rgb(223, 234, 255);
+    padding: 3px 8px 8px 8px;
+    border-radius: 8px;
+    display:none ;
+    position: relative;
+  }
+  .self-time button{
+    width: 50px;
+    margin-top: 5px;
+    color: rgb(223, 234, 255);
+    background-color:rgba(255, 0, 0, 0);
+    border: 1px solid rgb(223, 234, 255);
+  }
+  .yellow{
+    background-color: hsl(43, 84%, 65%);
+    margin-left: 0px;
+    margin-top: 160px;
+  }
+  .yellow img{
+    margin-left: 270px;
+  }
+  
+}
